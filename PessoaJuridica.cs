@@ -1,0 +1,9 @@
+using System;
+
+class PessoaJuridica : Padrao
+{
+    public override void taxaEmprestimo(double valor)
+    {
+        Console.WriteLine($"Taxa de Empréstimo para Pessoa Jurídica: {valor * 0.2:C}");
+    }
+}
